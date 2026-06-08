@@ -7,7 +7,7 @@ let
   pinnedPkgsSrc = super.fetchFromGitHub {
     owner = "NixOS";
     repo = "nixpkgs";
-    rev = "1267bb4920d0fc06ea916734c11b0bf004bbe17e";
+    rev = "8be2e938122ec770c3fb33c8b2a02f2205de1ec9";
     sha256 = "";
   };
 in
