@@ -10,7 +10,7 @@
     nixpkgs-for-bootstrap.url = "github:NixOS/nixpkgs/8be2e938122ec770c3fb33c8b2a02f2205de1ec9";
 
     home-manager = {
-      url = "github:nix-community/home-manager";
+      url = "github:nix-community/home-manager/release-25.11";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
